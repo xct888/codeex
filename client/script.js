@@ -76,7 +76,7 @@ const handleSubmit = async (e) =>{
   const messageDiv = document.getElementById(uniqueId)
   loader(messageDiv)
 
-  const response = await fetch('https://codeex-ac6r.onrender.com', {
+  const response = await fetch('http://localhost:8080', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
